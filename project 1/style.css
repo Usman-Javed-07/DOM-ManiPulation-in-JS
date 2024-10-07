@@ -12,6 +12,8 @@ body {
  height: 100vh;
  text-align: center;
  background:  url(images/Rectangle\ 9.png) no-repeat center center/ cover;
+ /* background: bisque; */
+ padding: 30px;
 }
 .container {
     width: 550px;
@@ -58,4 +60,12 @@ body {
 }
 .button-area button:active {
     background-color: lightblue;
+}
+@media screen and (max-width: 500px) {
+    .main-content {
+        height: 100vh;
+    }
+    body {
+        background: rgb(17 24 39);;
+    }
 }
